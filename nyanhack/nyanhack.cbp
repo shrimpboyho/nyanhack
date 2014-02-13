@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -39,7 +40,9 @@
 			<Add library="sfml-system-s-d" />
 			<Add directory="../SFML-2.1/lib" />
 		</Linker>
-		<Unit filename="main.cpp" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

@@ -1,6 +1,8 @@
 # depslib dependency file v1.0
-1392316362 source:c:\documents and settings\norbert joseph\desktop\nyanhack\nyanhack\main.cpp
+1392327057 source:c:\documents and settings\norbert joseph\desktop\nyanhack\nyanhack\main.cpp
+	<iostream>
 	<SFML/Graphics.hpp>
+	"include/Game.h"
 
 1392315871 c:\documents and settings\norbert joseph\desktop\nyanhack\sfml-2.1\include\sfml\graphics.hpp
 	<SFML/Window.hpp>
@@ -335,4 +337,7 @@
 	<SFML/System/String.hpp>
 	<string>
 	<vector>
+
+1392327005 c:\documents and settings\norbert joseph\desktop\nyanhack\nyanhack\include\game.h
+	<SFML/Graphics.hpp>
 
